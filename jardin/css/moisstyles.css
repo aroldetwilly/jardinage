@@ -1,0 +1,110 @@
+@media (min-width: 980px)  {
+body{
+	background-color: #8ec07a;
+	/*color: lightgrey;*/
+ }
+h1,h2{
+	color: #9E4696;
+}
+#container{
+	position : relative;
+	width: 1000px;
+	height: 600px;
+	margin-top: 10%;
+	margin-left: 10%;
+	
+ }
+ #container2{
+	position : relative;
+	width: 1000px;
+	height: 600px;
+	margin-left: 10%;
+
+ }
+  #container3{
+	position : relative;
+	width: 1000px;
+	height: 600px;
+	margin-left: 10%;
+	
+ }
+  #container4{
+	position : relative;
+	width: 1000px;
+	height: 600px;
+	margin-left: 10%;
+	
+ }
+ #container2bis{
+ 	position : relative;
+	width: 1000px;
+	height: 600px;
+	margin-left: 10%;
+	margin-top: 35px;
+ }
+
+img{
+	width: 25%;
+	position: relative;
+	left: 35%;
+	
+	
+}
+#cultiver{
+	position: relative;
+	
+}
+#recettes{
+	position: relative;
+	left: 560px;
+	top: -350px;
+	width: 400px;
+	margin-left: 10px;
+
+}
+
+#reseau{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: middle;
+	width: 1000px;
+	height: 100px;
+	left: 8.8%;
+	top:150px;
+}
+p{
+	text-align: justify; 
+}
+#retour{
+	position: relative;
+	top: -150px;
+}
+#retour1{
+	position: relative;
+	top: -400px;
+}
+#retour2{
+	position: relative;
+	top: -350px;
+}
+#button{
+	background: #8ec07a;  
+	border: 1px solid grey;
+   	font-weight: 900;
+   	color: lightgrey;
+}
+
+#button:hover {
+  background-color:#9E4696; 
+  box-shadow: 0 0 1px 1px green;
+  transition: all 250ms linear;
+}
+#linkedin{
+	position: relative;
+	width:8%;
+	left: 50%;
+}
+
+}

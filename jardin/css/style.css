@@ -1,0 +1,214 @@
+@media (min-width: 761px)  {
+
+body{
+	background-color: #8ec07a;
+	color: ;
+	font-size: 18px;
+	font-weight:  bold;
+}
+#linkedin{
+	position: relative;
+	width:8%;
+	left: 50%;
+}
+#box{
+	width: 1100px;
+	margin-left: 4%;
+	justify-content: space-around;
+}
+
+#ima{
+	position: relative;
+	width: 15%;
+	margin-left: 90px;
+}
+#ima1{
+	position: relative;
+	width: 15%;
+}
+#ima2{
+	position: relative;
+	width: 15%;
+	margin-left: 115px;
+}
+#ima3{
+	position: relative;
+	width: 15%;
+	margin-left: 110px;
+}
+#container{
+	position : relative;
+	width: 1000px;
+	height: 200px;
+	margin-top: 22%;
+	margin-left: 10%;
+	
+}
+
+a{
+	color:#8ec07a ;
+}
+a:hover{
+	color: #8ec07a;
+}
+
+img{
+	width: 20%;
+	margin: 20px 20px 0px 20px;
+	vertical-align: middle;
+}
+
+/*animation de la page d'accueil*/
+#un{
+	margin-top: -350px;
+	opacity: 0;
+	transition:  margin-top 1s, opacity 3s;
+	
+}
+#deux{
+	margin-top:-250px;
+    opacity: 0;
+    transition: margin-top 2s, opacity 4s;
+}
+#trois{
+	margin-top: -150px;
+    opacity: 0;
+    transition: margin-top 3s, opacity 5s;
+}
+#quatre{
+	margin-top: -80px;
+    opacity: 0;
+    transition: margin-top 3s, opacity 7s;
+	}
+#titre{
+	color: lightgrey;
+	text-align: center;
+	margin-top: 40px;
+	text-shadow: 4px 4px 5px #9E4696;
+	
+	
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 500px;}
+}
+@keyframes animated-cursor{
+  from{border-right-color: black;}
+  to{border-right-color: black;}
+}
+
+
+/*fin de l'animation*/
+
+
+#annee{
+	width: 1200px; 
+	height:600px;
+	margin : 40px auto;
+	margin: 15px 20px 0px 50px;
+
+}
+
+p{
+	text-align: center;
+}
+
+#mois{
+	position: relative;
+	display: inline-block;
+	padding:  50px 0px 0px 80px;
+	}
+
+#text{ /* je cache le texte avant survol*/
+	opacity:0;
+	font-size: 25px;
+	top: -80px;
+	left: -27%;
+	position:relative;
+	padding:  10px 150px 30px 45px;
+	border: 1px solid white;
+}
+
+#text:hover{ /*survol du mois transformation */
+	opacity:1;
+	background-color: lightgreen;
+	justify-content: middle;
+	color: black;
+	
+	}
+
+#row.mois:hover .text{
+	opacity:2;
+
+
+}	
+#reseau{
+	position: relative;
+	display: flex;
+	justify-content: middle;
+	width: 1000px;
+	height: 100px;
+	left: 6%;
+	margin-top: 80px;
+	top: 80px
+}
+
+
+}/* fin du css grand ecran sup à 761 px */
+@media (min-width: 425px) and (max-width: 760px)  {
+
+body{
+	background-color: #8ec07a;
+	color: ;
+	font-size: 18px;
+	font-weight:  bold;
+
+}
+img{
+	width: 15%;
+	margin: 10px 10px 0px 15px;
+	vertical-align: middle;
+}
+
+#container{
+	position : relative;
+	width: 400px;
+	height: 100px;
+	top: 250px;
+	margin-left: 10%;
+	
+}
+
+#titre{
+	position: relative;
+	color: lightgrey;
+	text-align: center;
+	margin-top: 20px;
+	text-shadow: 4px 4px 5px #9E4696;
+	top: 220px;
+	
+}
+#un{
+	margin-top: -350px;
+	opacity: 0;
+	transition:  margin-top 1s, opacity 3s;
+	
+}
+#deux{
+	margin-top:-250px;
+    opacity: 0;
+    transition: margin-top 2s, opacity 4s;
+}
+#trois{
+	margin-top: -150px;
+    opacity: 0;
+    transition: margin-top 3s, opacity 5s;
+}
+#quatre{
+	margin-top: -80px;
+    opacity: 0;
+    transition: margin-top 3s, opacity 7s;
+	}
+
+}/*fin css 425px et 760px*/
